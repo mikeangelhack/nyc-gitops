@@ -25,6 +25,7 @@ controls:
     custom_settings:
       - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
       - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+  enable_disk_encryption: true
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
